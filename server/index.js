@@ -19,7 +19,7 @@ app.use(router);
 // app.use("/auth", userRouter);
 // app.use("/recipes", recipesRouter);
 try{
-    mongoose.connect(`mongodb+srv://shreyash890:shrutika890@cluster0.7lkclym.mongodb.net/workout`)
+    mongoose.connect(`mongodb+srv://username:password@cluster0.7lkclym.mongodb.net/workout`)
     console.log(`Server Running on ${mongoose.connection.host}`.bgCyan.white)
 }catch(error){
     console.log(`${error}`.bgRed)
